@@ -27,8 +27,8 @@ for nombre in grupo:
 
 x = 10
 acumulador = 1
-for n in range(1, x + 1):
-    acumulador = acumulador * n
+for n in range(1, x + 1): #  [4, 5, 6, 7, 8, 9, 10]
+    acumulador = acumulador * n # 1 * 2 * 3 * 4 * 5
 
 print(acumulador)
 
